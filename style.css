@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
 body {
+    font-family: 'Roboto', 'san-serif';
     background: rgb(21, 160, 253);
+    margin: 0;
   }
 
 #hopesListTitle  {
@@ -12,4 +16,15 @@ img {
   width:  200px;
   height: 400px;
   object-fit: cover;
+}
+
+#time, #timeDiv {
+  background-color: aliceblue;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  height: auto;
+  width: auto;
+  margin-left: auto;
 }
